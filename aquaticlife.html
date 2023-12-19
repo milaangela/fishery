@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fish Catalog</title>
+</head>
+
+<style>
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 45px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+     body {
+            font-family: 'Calibri', sans-serif;
+            margin: 0;
+            padding: 0;
+            padding-top: 120px; 
+        }
+
+        .catalog-container {
+            max-width: 1800px;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .aquatic-item {
+            background-color: #c6fbe1;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            box-sizing: border-box;
+            flex: 0 0 calc(20% - 20px); /* 20% with margin included */
+            width: calc(15% - 20px);
+
+        }
+
+        .fish-images {
+            max-width: 100%;
+            border-radius: 8px;
+            height: 200px;
+            object-fit: fill;
+        }
+
+        .species {
+            margin-bottom: 10px;
+            font-size: 1.2em;
+            color: black;
+            font-size: 28px;
+        }
+
+        .info {
+            color: black;
+            margin-top: 15px;
+            font-size: 18px;
+            line-height: 1.5rem;
+        }
+
+        .cost {
+            font-size: 1.2em;
+            color: #333;
+            margin: 10px 0;
+            line-height: normal;
+            letter-spacing: 2px;
+            font-weight: bolder;
+        }
+
+        .add-to-tank-button {
+            background-color: #b5eae9;
+            color: black;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 16px; 
+        }
+
+        .add-to-tank-button:hover {
+            background-color: #d9f6f0;
+        }
+  
+</style>
+<body>
+    <header><h1>Pearl of the Pacific Fishery
+    </h1></header>
+    <div id="aquatic-catalog" class="catalog-container"></div>
+
+    <script>
+        fetch('aquaticLife.json') 
+            .then(response => response.json())
+            .then(aquaticLifeData => {
+                let fishCatalogOutput = "";
+                for (const fishEntry of aquaticLifeData) {
+                    fishCatalogOutput += `
+                        <div class="aquatic-item">
+                            <div><img src="${fishEntry.images}" class="fish-images"></div>
+                            <h3 class="species">${fishEntry.species}</h3>
+                            <div class="info">${fishEntry.info}</div>
+                            <p class="cost">&#8369;${fishEntry.price}</p>
+                            <button class="add-to-tank-button">Add to Tank</button>
+                        </div>
+                    `;
+                }
+                document.querySelector("#aquatic-catalog").innerHTML = fishCatalogOutput;
+            })
+            .catch(error => console.error('Error fetching fish data:', error));
+    </script>
+</body>
+</html>

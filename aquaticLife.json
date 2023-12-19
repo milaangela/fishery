@@ -1,0 +1,115 @@
+[
+    {
+        "images" : "sealife/bangus.jpg",
+        "species" : "Bangus (Milkfish)",
+        "info" : "Bangus, or milkfish, is a key fish in Filipino cuisine and aquaculture. It's prized for tender meat, economically important, and a healthy source of protein and omega-3 fatty acids. ",
+        "price" : 150
+    },
+
+    {
+        "images" : "sealife/tilapia.jpg",
+        "species" : "Tilapia",
+        "info" : "Tilapia is a widely consumed freshwater fish known for its mild flavor and adaptability. It's a popular choice for its rapid growth, versatility in cuisine, and as a source of lean protein. ",
+        "price" : 160
+    },
+
+    {
+        "images" : "sealife/galunggong.jpg",
+        "species" : "Galunggong",
+        "info" : "Galunggong is a small, affordable saltwater fish popular in Southeast Asia, especially the Philippines. It's known for its distinct taste and is commonly grilled or fried, serving as a staple protein source in local markets. ",
+        "price" : 90
+    },
+
+    {
+        "images" : "sealife/tamban.jpg",
+        "species" : "Tamban",
+        "info" : "Tamban, a small oily fish, is popular in Southeast Asia for its rich flavor. Used in various dishes, just like tinapa, it's a source of omega-3 fatty acids and protein in local diets. ",
+        "price" : 92
+    },
+
+    {
+        "images" : "sealife/tuna.jpg",
+        "species" : "Tuna",
+        "info" : "Tuna is a prized saltwater fish, versatile in sushi and grilling. Rich in protein and omega-3s, it faces conservation challenges due to overfishing, especially Bluefin tuna.",
+        "price" : 300
+    },
+
+    {
+        "images" : "sealife/lapu-lapu.jpg",
+        "species" : "Lapu-Lapu",
+        "info" : "Lapu-lapu, or grouper, is a prized saltwater fish in Southeast Asia, particularly the Philippines. Known for its firm flesh, it's versatile in cooking and holds cultural significance as it signifies the local hero, Datu Lapu Lapu. ",
+        "price" : 350
+    },
+
+    {
+        "images" : "sealife/mayamaya.jpg",
+        "species" : "Maya-Maya",
+        "info" : "Maya-maya, or red snapper, is a popular saltwater fish in Southeast Asia, prized for its flavorful white flesh. It's commonly grilled, fried, or steamed, serving as a staple in Filipino cuisine. ",
+        "price" : 400
+    },
+
+    {
+        "images" : "sealife/bisugo.jpg",
+        "species" : "Bisugo",
+        "info" : "Bisugo, or threadfin bream, is a common saltwater fish in Southeast Asia, prized for its delicate white flesh. Often grilled or fried, it's popular in Filipino cuisine and valued for its mild flavor. ",
+        "price" : 150
+    },
+
+    {
+        "images" : "sealife/sapsap.jpg",
+        "species" : "Sapsap",
+        "info" : "Sapsap, or ponyfish, is a small saltwater fish in Southeast Asia, especially the Philippines. Known for its slender body, it's often fried or grilled, offering a mild-flavored source of protein in Filipino cuisine. ",
+        "price" : 200
+    },
+
+    {
+        "images" : "sealife/tambakol.jpg",
+        "species" : "Tambakol",
+        "info" : "Tambakol, or yellowfin tuna, is prized for its vibrant yellow dorsal fin and used globally in sushi, grilling, and canning. Sought after for sport and commercial fishing, it provides rich protein and omega-3 fatty acids. ",
+        "price" : 390
+    },
+
+    {
+        "images" : "sealife/dilis.jpg",
+        "species" : "Dilis",
+        "info" : "Dilis, or anchovies, is a small saltwater fish widely used in Filipino cuisine. Often dried or fermented, it adds a distinctive salty flavor to stews, sauces, and fried rice, enhancing the taste of local dishes. ",
+        "price" : 64
+    },
+
+    {
+        "images" : "sealife/hito.jpg",
+        "species" : "Hito",
+        "info" : "Hito, or catfish, is a freshwater fish popular in Filipino cuisine. Recognized for its unique taste and firm texture, hito is often grilled or used in stews. It's a staple in local markets and provides a source of protein. ",
+        "price" : 250
+    },
+
+    {
+        "images" : "sealife/pompano.jpg",
+        "species" : "Pompano",
+        "info" : "Pompano is a saltwater fish known for its mild flavor and tender flesh. It's commonly grilled, baked, or fried and is popular in various cuisines. The fish provides a good source of protein and is prized for its culinary versatility.",
+        "price" : 450
+    },
+
+    {
+        "images" : "sealife/labahita.jpg",
+        "species" : "Labahita",
+        "info" : "Labahita, or surgeonfish, is a tropical marine fish popular in Asian cuisines, especially in the Philippines. Known for its distinctive appearance, it's often grilled or fried, providing a mild-flavored source of protein and essential nutrients. ",
+        "price" : 240
+    },
+
+    {
+        "images" : "sealife/alumahan.jpg",
+        "species" : "Alumahan",
+        "info" : "Alumahan, or Indian mackerel, is a saltwater fish popular in Southeast Asia, especially the Philippines. Known for its silvery appearance and distinctive taste, it's commonly grilled or fried, providing a good source of omega-3 fatty acids and protein. ",
+        "price" : 290
+    },
+
+    {
+        "images" : "sealife/salaysalay.jpg",
+        "species" : "Salay-Salay",
+        "info" : " Salay-Salay, or yellowstripe scad, is a saltwater fish in the Indo-Pacific region, popular in Filipino cuisine. Recognized by its yellow stripe, it's commonly grilled or fried, offering a flavorful source of protein. ",
+        "price" : 165
+    }
+
+    
+]
